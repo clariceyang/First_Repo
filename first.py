@@ -5,4 +5,4 @@ df = pd.dataframe({
     "b": [33,44]})
 
 df2 = pd.dataframe({
-    "c":[[55,66]}
+    "c":[55,66]}
