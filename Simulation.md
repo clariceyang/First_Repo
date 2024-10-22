@@ -14,16 +14,16 @@ Consider a simple weather model where the weather can be either **Sunny (S)** or
 - If it's sunny today, there's a 70% chance it will be sunny tomorrow and a 30% chance it will be rainy.
 - If it's rainy today, there's a 50% chance it will be sunny tomorrow and a 50% chance it will remain rainy.
 
-The transition matrix \( P \) is:
-$$\[
-P = \begin{bmatrix}
+The transition matrix $\( P \)$ is:
+\[
+P = $\begin{bmatrix}
 0.7 & 0.3 \\
 0.5 & 0.5
-\end{bmatrix}
-\]$$
+\end{bmatrix}$
+\]
 
-$- **P(Sunny tomorrow | Sunny today) = 0.7**$
-$- **P(Rainy tomorrow | Rainy today) = 0.5**$
+- **P(Sunny tomorrow | Sunny today) = 0.7**
+- **P(Rainy tomorrow | Rainy today) = 0.5**
 
 #### Interview Question:
 *"Given the above transition matrix, what is the probability that it will be sunny two days from now if it is sunny today?"*
