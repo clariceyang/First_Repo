@@ -16,12 +16,10 @@ Consider a simple weather model where the weather can be either **Sunny (S)** or
 
 The transition matrix $\( P \)$ is:
 ```math
-\[
 P = \begin{bmatrix}
 0.7 & 0.3 \\
 0.5 & 0.5
 \end{bmatrix}
-\]
 ```
 
 - **P(Sunny tomorrow | Sunny today) = 0.7**
