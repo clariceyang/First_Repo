@@ -73,4 +73,4 @@ Certainly! Here’s a more integrated explanation of key probability concepts, e
   - **Interview Question**: *"Are the events 'rolling an even number' and 'rolling a number greater than 3' on a single die independent?"*
     - **Solution**: Check if $\( P(\text{Even} \cap \text{>3}) = P(\text{Even}) \cdot P(\text{>3}) \)$.
 
-By understanding these fundamental concepts, examples, and interview-style questions, you'll be well-prepared to tackle the basic probability section in data science interviews! Let me know if you want to dive deeper into more advanced concepts.
+
