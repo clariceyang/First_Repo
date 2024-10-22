@@ -15,12 +15,14 @@ Consider a simple weather model where the weather can be either **Sunny (S)** or
 - If it's rainy today, there's a 50% chance it will be sunny tomorrow and a 50% chance it will remain rainy.
 
 The transition matrix $\( P \)$ is:
+```math
 \[
-P = $\begin{bmatrix}
+P = \begin{bmatrix}
 0.7 & 0.3 \\
 0.5 & 0.5
-\end{bmatrix}$
+\end{bmatrix}
 \]
+```
 
 - **P(Sunny tomorrow | Sunny today) = 0.7**
 - **P(Rainy tomorrow | Rainy today) = 0.5**
