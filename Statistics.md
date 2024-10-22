@@ -5,9 +5,9 @@ Certainly! Here’s a more integrated explanation of key probability concepts, e
 - **Probability Theory**: Understanding the likelihood of events occurring.
 
   - **Example**: If you roll a fair 6-sided die, the probability of rolling a 4 is:
-    $\[
+    $$\[
     P(\text{rolling a 4}) = \frac{1}{6}
-    \]$
+    \]$$
   
   - **Interview Question**: *"If you flip two fair coins, what is the probability that both will be heads?"*
     - **Solution**: The sample space is \(\{HH, HT, TH, TT\}\). 
