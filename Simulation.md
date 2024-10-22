@@ -30,9 +30,7 @@ P = \begin{bmatrix}
 
 - **Solution**:
     To find this, compute $\( P^2 \)$ (the matrix squared):
-    ```math
-    P^2 = P \times P = \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix} \times \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix}
-    ```
+    $$\P^2 = P \times P = \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix} \times \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix}$$
     Use the result to determine the probability of being in the **Sunny** state after two transitions.
 
 #### Interview Question:
@@ -40,9 +38,7 @@ P = \begin{bmatrix}
 
 - **Solution**:
     A stationary distribution $\( \pi \)$ satisfies:
-    ```math
-    \pi P = \pi
-    ```
+    $$\pi P = \pi$$
     This means that the probabilities of being in each state remain the same after a transition. Solve this system of equations (along with the condition that the probabilities sum to 1) to find $\( \pi \)$.
 
 ### 9. **Monte Carlo Simulations**
