@@ -14,12 +14,12 @@ Consider a simple weather model where the weather can be either **Sunny (S)** or
 - If it's rainy today, there's a 50% chance it will be sunny tomorrow and a 50% chance it will remain rainy.
 
 The transition matrix \( P \) is:
-$\[
-P = \begin{bmatrix}
+\[
+P = $\begin{bmatrix}
 0.7 & 0.3 \\
 0.5 & 0.5
-\end{bmatrix}
-\]$
+\end{bmatrix}$
+\]
 
 $- \( P(\text{Sunny tomorrow | Sunny today}) = 0.7 \)$
 $- \( P(\text{Rainy tomorrow | Rainy today}) = 0.5 \)$
@@ -27,10 +27,10 @@ $- \( P(\text{Rainy tomorrow | Rainy today}) = 0.5 \)$
 #### Interview Question:
 **"Given the above transition matrix, what is the probability that it will be sunny two days from now if it is sunny today?"**
 
-- **Solution**: To find this, compute \( P^2 \) (the matrix squared):
-\[
+- **Solution**: To find this, compute $\( P^2 \)$ (the matrix squared):
+$\[
 P^2 = P \times P = \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix} \times \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix}
-\]
+\]$
 Use the resulting matrix to determine the probability of being in the **Sunny** state after two transitions.
 
 #### Interview Question:
@@ -38,9 +38,9 @@ Use the resulting matrix to determine the probability of being in the **Sunny** 
 
 - **Solution**: A stationary distribution \( \pi \) satisfies:
 \[
-\pi P = \pi
-\]
-This means that the probabilities of being in each state remain the same after a transition. Solve this system of equations (along with the condition that the probabilities sum to 1) to find \( \pi \).
+$\pi P = \pi
+\]$
+This means that the probabilities of being in each state remain the same after a transition. Solve this system of equations (along with the condition that the probabilities sum to 1) to find $\( \pi \)$.
 
 ---
 
