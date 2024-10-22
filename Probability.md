@@ -66,7 +66,7 @@ Certainly! Here’s a more integrated explanation of key probability concepts, e
 
   - **Example**: Rolling two dice. The outcome of one die does not affect the other.
     - Probability of rolling a 4 on both dice:
-    \[
+    $\[
       P(\text{4 on die 1} \cap \text{4 on die 2}) = \frac{1}{6} \cdot \frac{1}{6} = \frac{1}{36}
       \]$
 
