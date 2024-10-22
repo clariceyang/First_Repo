@@ -97,11 +97,11 @@
 - **Hypothesis Testing**: Method for testing a claim about a population.
 
   - **Example**: Testing if a coin is fair based on 100 flips.
-    - Null hypothesis (\( H_0 \)): The coin is fair (\( p = 0.5 \)).
-    - Alternative hypothesis (\( H_1 \)): The coin is biased (\( p \neq 0.5 \)).
+    - Null hypothesis $(\( H_0 \))$: The coin is fair $(\( p = 0.5 \))$.
+    - Alternative hypothesis $(\( H_1 \))$: The coin is biased $(\( p \neq 0.5 \))$.
   
   - **Interview Question**: *"What is a p-value and how do you interpret it in hypothesis testing?"*
-    - **Answer**: The p-value indicates the probability of obtaining a test statistic at least as extreme as the one observed, assuming \( H_0 \) is true. A low p-value (e.g., < 0.05) suggests rejecting \( H_0 \).
+    - **Answer**: The p-value indicates the probability of obtaining a test statistic at least as extreme as the one observed, assuming $\( H_0 \)$ is true. A low p-value (e.g., < 0.05) suggests rejecting $\( H_0 \)$.
 
 ### 7. **Maximum Likelihood Estimation (MLE)**
 
