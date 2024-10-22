@@ -54,8 +54,8 @@ P = \begin{bmatrix}
 Estimating the value of $\( \pi \)$ using Monte Carlo simulation:
 - Consider a unit square (1x1) and an inscribed quarter-circle of radius 1.
 - Generate random points \((x, y)\) within the square.
-- Count how many points fall inside the quarter-circle (where $`( x^2 + y^2 \leq 1 \)`$).
-- The ratio of points inside the quarter-circle to the total points approximates $`( \frac{\pi}{4} \)`$.
+- Count how many points fall inside the quarter-circle (where $`( x^2 + y^2 \leq 1`$).
+- The ratio of points inside the quarter-circle to the total points approximates $`( \frac{\pi}{4}`$.
 
   **Python code**:
   ```python
