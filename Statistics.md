@@ -36,8 +36,8 @@ Certainly! Here’s a more integrated explanation of key probability concepts, e
     - **Solution**:
      $\[
       P(\text{Purchase}) = P(\text{Regular}) \cdot P(\text{Purchase | Regular}) + P(\text{New}) \cdot P(\text{Purchase | New})
-      \] 
-      \[
+      \]$
+      $\[
       P(\text{Purchase}) = 0.6 \cdot 0.3 + 0.4 \cdot 0.5 = 0.38
       \]$
 
@@ -54,7 +54,7 @@ Certainly! Here’s a more integrated explanation of key probability concepts, e
      $\[
       P(\text{Disease | Positive}) = \frac{P(\text{Positive | Disease}) \cdot P(\text{Disease})}{P(\text{Positive})}
       \]$
-      Calculate \( P(\text{Positive}) \) using the law of total probability.
+      Calculate $\( P(\text{Positive}) \)$ using the law of total probability.
 
   - **Interview Question**: *"A factory has two machines, A and B, producing 30% and 70% of items, respectively. Machine A has a defect rate of 2%, while B has 5%. If an item is defective, what is the probability it came from Machine A?"*
     - **Hint**: Apply Bayes’ theorem.
@@ -66,7 +66,7 @@ Certainly! Here’s a more integrated explanation of key probability concepts, e
 
   - **Example**: Rolling two dice. The outcome of one die does not affect the other.
     - Probability of rolling a 4 on both dice:
-    $ \[
+    \[
       P(\text{4 on die 1} \cap \text{4 on die 2}) = \frac{1}{6} \cdot \frac{1}{6} = \frac{1}{36}
       \]$
 
