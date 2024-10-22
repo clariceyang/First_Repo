@@ -30,7 +30,7 @@ P = \begin{bmatrix}
 
 - **Solution**:
     To find this, compute $\( P^2 \)$ (the matrix squared):
-    $`\P^2 = P \times P = \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix} \times \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix}`$
+    $`P^2 = P \times P = \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix} \times \begin{bmatrix} 0.7 & 0.3 \\ 0.5 & 0.5 \end{bmatrix}`$
     Use the result to determine the probability of being in the **Sunny** state after two transitions.
 
 #### Interview Question:
