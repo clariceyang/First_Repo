@@ -1,4 +1,4 @@
-Sure! Let's dive into **Markov Chains** and **Monte Carlo Simulations**, two important concepts often encountered in data science interviews. I'll provide explanations, examples, and common interview questions for each.
+
 
 ### 8. **Markov Chains**
 
